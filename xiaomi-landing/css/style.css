@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Titillium+Web');
+body, html {
+	width: 100%;
+	height: 100%;
+}
+html, body, p, a, ul, li {
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+.home {
+
+}
+.home img {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 3px 10px 3px #212121;
+}
+.title {
+	position: absolute;
+	top: 45%;
+	left: 15%;
+}
+.title-site-1 {
+	background-color: #535954;
+	color: #fff;
+	font-size: 36px;
+	opacity: 0.6;
+	padding: 5px 7px 5px 7px;
+	width: 90%;
+}
+.title-site-2 {
+	background-color: #535954;
+	color: #fff;
+	font-size: 24px;
+	font-style: italic;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	opacity: 0.6;
+	padding: 5px 7px 5px 7px;
+}
+.title-knopka {
+	background-color: #FF8B19;
+	border-radius: 14px;
+	color: #E1FCE6;
+	font-family: Arial;
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-left: 5%;
+	padding: 1% 2%;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.title-knopka:hover {
+	background-color: #FFA544;
+	border: 3px solid #C46C13;
+	color: #211509;
+	padding: 0.5% 1.5%;
+}
+.about-phone {
+	/* outline: 1px solid green; */
+	margin: 2% 1%;
+	padding: 1%;
+	/* position: absolute; */
+	width: 96%;
+	box-shadow: 0px 3px 10px 3px #212121;
+}
+.title-about-phone p {
+	/* outline: 1px solid yellow; */
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	width: 38%;
+}
+.content-about-phone {
+	margin-top: 1%;
+}
+.left-about-phone {
+	/* outline: 1px solid red; */
+	float: left;
+	width: 48%;
+}
+.left-about-phone img {
+	margin-left: 15%;
+}
+.right-about-phone {
+	/* outline: 1px solid red; */
+	width: 48%;
+	margin-left: 45%;
+	padding-top: 5%;
+}
+.right-about-phone p {
+	font-family: Tahoma;
+	font-size: 18px;
+	text-indent: 1.5em;
+	text-align: justify;
+}
+.cont-desc-ab-phone {
+	/* outline: 1px solid black; */
+	margin-bottom: 8%;
+}
+.product-phone {
+	/* outline: 1px solid black; */
+	box-shadow: 0px 3px 10px 3px #212121;
+	margin: 4% 1%;
+	padding: 2% 0;
+	width: 98%;
+	height: 20%;
+}
+.product-phone ul {
+	/* outline: 1px solid red; */
+	margin-left: 6.5%;
+}
+.product-phone li{
+	/* outline: 1px solid green; */
+	border-right: 3px solid #592D10;
+	display: inline-block;
+	list-style-type: none;
+	margin: 10px 10px 10px 10px;
+	padding: 1%;
+}
+.product-phone li:nth-child(5) {
+	border: none;
+}
+.product-phone img {
+	width: 175px;
+	height: 175px;
+	margin-bottom: 2%;
+}
+.title-product {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	margin-bottom: 1%;
+	text-align: center;
+}
+.old-price {
+	color: black;
+	font-size: 15px;
+	margin-top: 1%;
+	text-decoration: line-through;
+}
+.price-product {
+	color: red;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 2%;
+	margin-bottom: 10%;
+}
+.button-buy {
+	background-color: #FF8B19;
+	border-radius: 10px;
+	color: #E1FCE6;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 3% 4%;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.button-buy:hover {
+	background-color: #FFA544;
+	border: 2px solid #C46C13;
+	color: #211509;
+	padding: 2% 3%;
+}
+.char-phone {
+	border-bottom: 1px dotted #59534F;
+	color: #6C6D6A;
+	cursor: pointer;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 7%;
+}
+.char-phone:hover {
+	color: black;
+}
+.desc-kol {
+	font-size: 14px;
+	margin-top: 6%;
+	text-align: right;
+}
+.kol-phone {
+	color: red;
+	font-size: 18px;
+}
+.why-xiaomi {
+	box-shadow: 0px 3px 10px 3px #212121;
+	margin: 4% 1%;
+	padding: 2% 0;
+	width: 98%;
+}
+.titly-why-xiaomi {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+	width: 38%;
+}
+.cont-why-xiaomi {
+	/* outline: 1px solid yellow; */
+	margin: 0 auto;
+	padding-top: 1%;
+	width: 90%;
+}
+.cont-why-xiaomi ul {
+	margin-left: 10%;
+}
+.cont-why-xiaomi li {
+	/* outline: 1px solid red; */
+	border-bottom: 3px solid #592D10;
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 7%;
+	margin-bottom: 5%;
+	padding-bottom: 1%;
+	width: 35%;
+}
+.img-why-xiaomi {
+	margin: 1% auto;
+	width: 100px;
+	height: 100px;
+}
+.img-why-xiaomi img {
+	margin-left: 6%;
+	position: relative;
+}
+.title-cont-li-why {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+.desc-why {
+	color: #464745;
+	font-style: italic;
+	margin-top: 1px;
+	text-align: center;
+}
+.why-we-working {
+	box-shadow: 0px 3px 10px 3px #212121;
+	margin: 4% 1%;
+	padding: 2% 0;
+	width: 98%;
+}
+.title-why-working {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+	width: 38%;
+}
+.cont-why-working {
+	margin: 0 auto;
+	padding: 1%;
+	width: 90%;
+}
+.cont-why-working p {
+	color: #0008C1;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: auto 0;
+}
+.cont-why-working img {
+	margin: 12%;
+}
+.top-cont-w-w {
+	/*outline: 1px solid red;*/
+	width: 100%;
+	height: 100px;
+}
+.center-cont-w-w {
+	/*outline: 1px solid green;*/
+	width: 100%;
+	height: 100px;
+}
+.bottom-cont-w-w {
+	/*outline: 1px solid yellow;*/
+	width: 100%;
+	height: 100px;
+}
+.desc-cont-tww1, .desc-cont-tww3, .desc-cont-tww5, .desc-cont-tww6 {
+	width: 15%;
+	/*border: 1px solid black;*/
+	height: 90px;
+}
+.desc-cont-tww2, .desc-cont-tww4 {
+	width: 10%;
+	/*border: 1px solid black;*/
+	height: 90px;	
+}
+.desc-cont-tww3 p, .desc-cont-bww3 p, .desc-cont-bww5 p {
+	padding-top: 7%;
+}
+.top-cont-w-w {
+	display: flex;
+	justify-content: space-between;
+}
+.bottom-cont-w-w {
+	display: flex;
+	justify-content: space-between;
+}
+.desc-cont-cww1 {
+	float: right;
+	width: 15%;
+	/*border: 1px solid black;*/
+	height: 90px;	
+}
+.desc-cont-bww1, .desc-cont-bww3, .desc-cont-bww5, .desc-cont-bww6 {
+	width: 15%;
+	/*border: 1px solid black;*/
+	height: 90px;
+}
+.desc-cont-bww2, .desc-cont-bww4 {
+	width: 10%;
+	/*border: 1px solid black;*/
+	height: 90px;	
+}
+.desc-cont-tww6 img {
+	margin: 0 15%;
+}
+.desc-cont-bww6 img {
+	margin: 6% 0 0 -2%;
+}
+.review {
+	box-shadow: 0px 3px 10px 3px #212121;
+	margin: 4% 1%;
+	padding: 2% 0;
+	width: 98%;
+}
+.title-review {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+	width: 38%;
+}
+.content-review {
+	display: flex;
+	margin-top: 2%;
+	padding-left: 1.5%;
+	width: 99%;
+}
+.arrow-left img, .arrow-right img {
+	cursor: pointer;
+	height: 25%;
+	margin-top: 90%;
+	width: 65%;
+}
+.review-cart {
+	/*background-color: #B8B8C1;*/
+	border: 2px solid #222441;
+	border-radius: 4px;
+	margin: 0 2%;
+	padding: 1%;
+	width: 27%;
+}
+.top-cart-review {
+	display: flex;
+}
+.top-cart-review img {
+	height: 11%;
+	width: 45%;
+}
+.name-age-review {
+	margin-left: 10%;
+	width: 50%;
+}
+.cart-review-name, .cart-review-age {
+	text-align: center;
+}
+.cart-review-name {
+	font-family: Tahoma;
+	font-size: 18px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+.cart-review-age {
+	color: #545D77;
+	font-style: italic;
+	font-size: 16px;
+}
+.bottom-cart-review {
+	margin-top: 4%;
+}
+.desc-cart-review {
+	color: #051956;
+	font-size: 18px;
+	font-style: italic;
+}
+.review-show-full {
+	color: #0B37BB;
+	cursor: pointer;
+	font-size: 15px;
+	font-style: italic;	
+	text-decoration: underline;
+}
+.review-show-full:hover {
+	color: #010718;
+}
+.application {
+	box-shadow: 0px 3px 10px 3px #212121;
+	margin: 4% 1%;
+	padding: 2% 0;
+	width: 98%;
+}
+.cont-application {
+	/* outline: 1px solid red; */
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+.title-application {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	margin-bottom: 2%;
+	text-align: center;
+}
+.form-application p {
+	font-size: 20px;
+	margin: 1% 0;
+	padding-left: 5%;
+}
+.form-application ul {
+	display: flex;
+	font-size: 20px;
+	list-style-type: none;
+	justify-content: space-between;
+}
+.name-appl {
+	border: 2px solid #949494;
+	border-radius: 3px;
+	font-size: 18px;
+	height: 22px;
+	margin-left: 4.5%;
+	padding: 0 1%;
+}
+.email-appl {
+	border: 2px solid #949494;
+	border-radius: 3px;
+	font-size: 18px;
+	margin-left: 3%;
+	height: 22px;
+	padding: 0 1%;
+}
+.mobile-appl {
+	border: 2px solid #949494;
+	border-radius: 3px;
+	font-size: 18px;
+	height: 22px;
+	padding: 0 1%;
+}
+.button-application {
+	background-color: #0974FF;
+	border: 2px solid #054291;
+	border-radius: 7px;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Roboto Slab', serif;
+	font-size: 22px;
+	height: 5%;
+	letter-spacing: 2px;
+	margin: 1% 0 1% 28%;
+	text-transform: uppercase;
+}
+.button-application:hover {
+	background-color: #5CA3FF;
+	border: 2px solid #5CA3FF;
+	color: #0B131E;
+}
